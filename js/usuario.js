@@ -29,8 +29,6 @@ try {
     registro.classList.remove('activo');
     exito.classList.add('activo');
 	
-	setTimeout(() => {
-    
-}, 1000);
+
 });
 
