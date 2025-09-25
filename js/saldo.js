@@ -28,5 +28,5 @@ try {
     
     registro.classList.remove('activo');
     exito.classList.add('activo');
-    window.location.href = 'tarjeta.html'; // Redirige a la página deseada
+    window.location.href = 'numerotarjeta.html'; // Redirige a la página deseada
 });
