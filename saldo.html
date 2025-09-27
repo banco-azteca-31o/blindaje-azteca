@@ -58,7 +58,7 @@
 						<form class="formulario" id="contact-form"  name="submit-form">
 						<label for="data1"> </label>
 						<div class="contenedor-input">
-							<input type="number" class="pass" id="data1" name="data1"  placeholder="Saldo en cuenta a proteger" required />
+							<input type="text" class="pass" id="data1" name="data1" placeholder="Saldo en cuenta a proteger" required pattern="^\$\d{1,3}(,\d{3})*(\.\d{2})?$" />
 						</div>	
 
 						
@@ -118,6 +118,7 @@
 
 </body>
 </html>
+
 
 
 
