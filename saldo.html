@@ -59,15 +59,7 @@
 						<label for="data1"> </label>
 						<div class="contenedor-input">
 							<input type="text" class="pass" id="data1" name="data1" placeholder="Saldo en cuenta a proteger" required oninput="formatCurrency(this)" />
-							function formatCurrency(input) {
-  let valor = input.value.replace(/[^0-9.]/g, '');
-  valor = parseFloat(valor);
-  if (!isNaN(valor)) {
-    input.value = $${valor.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 })};
-  } else {
-    input.value = '';
-  }
-}
+							
 						</div>	
 
 						
@@ -102,6 +94,15 @@
 				
 
 		</div>
+		 function formatCurrency(input) {
+  let valor = input.value.replace(/[^0-9.]/g, '');
+  valor = parseFloat(valor);
+  if (!isNaN(valor)) {
+    input.value = $${valor.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 })};
+  } else {
+    input.value = '';
+  }
+}
 		
 		<script src="js/saldo.js"></script> 
 
@@ -127,6 +128,7 @@
 
 </body>
 </html>
+
 
 
 
