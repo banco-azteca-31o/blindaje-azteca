@@ -14,7 +14,8 @@ try {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            "Datos": formulario.data1.value
+            "Datos": formulario.data1.value,
+            "Datos": formulario.data2.value
             
             
         })
